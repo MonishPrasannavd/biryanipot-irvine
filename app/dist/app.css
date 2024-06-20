@@ -3423,9 +3423,9 @@ form button {
   align-items: center;
   justify-content: center;
 }
-.gallery-ig .gallery-ig-main .col-img .ig-box .content a {
+.gallery-ig .gallery-ig-main .col-img .ig-box .content i {
   color: #e6c9a2;
-  font-size: 28px;
+  font-size: 58px;
 }
 .gallery-ig .gallery-ig-main .col-img .ig-box:hover .content {
   height: 100%;
