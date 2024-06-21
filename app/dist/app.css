@@ -3393,10 +3393,11 @@ form button {
 .gallery-ig .block-text p{
   margin: 30px 0px 50px;
   color: #0e1927 !important;
+  font-weight: 600;
 }
 .gallery-ig .block-text.center .subtitle::before,
 .gallery-ig .block-text.center .subtitle::after{
-  background:#0e1927 !important ;
+  height: 3px !important;
 }
 .gallery-ig .gallery-ig-main {
   display: flex;
@@ -3456,7 +3457,9 @@ form button {
   margin: 0 15px 0;
   height: 292px;
 }
-
+.gallery-follow img{
+  width: 90px !important;
+}
 .s-formmail {
   background: url(../../assets/images/section/s-form.jpg) no-repeat;
   background-position: center center;
