@@ -11391,4 +11391,14 @@ img.mfp-img {
 .s-contact-2 iframe{
   margin-top: 40px;
 }
+.s-couter h3{
+  font-weight: 700;
+ 
+}
+.s-couter h2{
+  text-transform: uppercase !important;
+  word-spacing: 1px !important;
+  margin-top: 30px;
+  font-weight: 300;
+}
 /*# sourceMappingURL=app.css.map */
