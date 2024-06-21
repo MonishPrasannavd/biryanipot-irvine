@@ -11362,4 +11362,10 @@ img.mfp-img {
   list-style: square !important;
   margin-left: 30px;
 }
+.opening .opening-content .block-text ul li{
+  margin-bottom: 20px;
+}
+.opening .opening-content .block-text ul li b{
+  font-size: 1.25rem;
+}
 /*# sourceMappingURL=app.css.map */
