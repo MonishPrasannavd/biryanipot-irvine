@@ -11371,4 +11371,21 @@ img.mfp-img {
 .opening .opening-content .block-text ul li b{
   font-size: 1.25rem;
 }
+#unsubscribe .modal-body{
+  padding: 5px;
+}
+/* .modal-body .form-check{
+  margin-left:20px ;
+} */
+.modal-body .form-check-label{
+  color: #FFFFFF;
+}
+.modal-body .s-formmail .formmail-content .block-text .title{
+  font-size: 1.25rem;
+  margin-bottom: -15px !important;
+}
+.modal-body form.s1 button{
+  top: 45.5%;
+
+}
 /*# sourceMappingURL=app.css.map */
