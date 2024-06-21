@@ -3386,7 +3386,17 @@ form button {
 }
 
 .gallery-ig {
+  margin-top: 40px;
   padding: 0 0 133px;
+}
+
+.gallery-ig .block-text p{
+  margin: 30px 0px 50px;
+  color: #0e1927 !important;
+}
+.gallery-ig .block-text.center .subtitle::before,
+.gallery-ig .block-text.center .subtitle::after{
+  background:#0e1927 !important ;
 }
 .gallery-ig .gallery-ig-main {
   display: flex;
@@ -7896,11 +7906,12 @@ form.s2 a::before {
 }
 .footer.style-2 .widget.logo {
   text-align: center;
-  padding: 0 28px;
+  padding: 0 28px 0px 0px;
 }
 .footer.style-2 .widget.logo p {
   margin-bottom: 38px;
   line-height: 1.7;
+  margin-left: 30px;
 }
 .footer.style-2 .widget.time {
   text-align: right;
@@ -7927,7 +7938,7 @@ form.s2 a::before {
 
 .list-social {
   display: flex;
-  margin-right:2rem;
+  margin-right:0rem;
 }
 .list-social li {
   margin-right: 12px;
@@ -9916,7 +9927,7 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px;
   }
-  
+
 }
 .mfp-ie7 .mfp-img {
   padding: 0;
@@ -10861,6 +10872,7 @@ img.mfp-img {
   .footer .widget {
     margin-bottom: 30px;
   }
+ 
 }
 @media only screen and (max-width: 767px) {
   .blog-single .blog-box-2 .d-flex img {
@@ -11119,8 +11131,12 @@ img.mfp-img {
     margin: 0;
     padding-top: 0;
   }
+
 }
 @media only screen and (max-width: 600px) {
+  #header_main.is-fixed{
+    position: static;
+  }
   .page-404 .p404-main .numb img {
     margin: 0 20px;
     width: 225px;
@@ -11200,6 +11216,7 @@ img.mfp-img {
   .gallery-ig{
     padding: 0px 0px 30px;
   }
+ 
 }
 @media only screen and (max-width: 520px) {
   .s-menu .flat-tabs .content-tab .left-img,
@@ -11303,5 +11320,46 @@ img.mfp-img {
   width: 100%;
   height: 110px !important;
 }
+.bottom-main button{
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.bottom-main button:hover{
+  color: #E6C99A;
+}
+.modal-header{
+  background-color: #0E1927;
+  padding: 5px 20px;
+}
+.modal-header h1{
+  color: #E6C99A;
+}
+.close-btn i{
+  color: #FFFF;
+  font-size: 20px;
+}
+.modal-body{
+  padding: 20px;
+}
+.modal-body .privacy-body{
+  border: 1px solid #0c1226;
+  border-radius: 5px;
+  padding: 25px;
+}
 
+.modal-body .privacy-body h6{
+  font-size: 1.25rem;
+  letter-spacing: 0.4px !important;
+}
+.modal-body .privacy-body p{
+  margin-bottom: 0px !important;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.modal-body .privacy-body ul li{
+  list-style: square !important;
+  margin-left: 30px;
+}
 /*# sourceMappingURL=app.css.map */
