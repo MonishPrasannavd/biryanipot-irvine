@@ -1156,7 +1156,7 @@ form button {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   width: 100%;
-  background: #0e1927;
+  background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), inset 0px 1px 0px #ECECEC;
 }
 
@@ -11180,6 +11180,16 @@ img.mfp-img {
 
 }
 @media only screen and (max-width: 600px) {
+  #header_main {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), inset 0px 1px 0px #ECECEC;
+  }
   #header_main.is-fixed{
     position: static;
   }
