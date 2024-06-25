@@ -3535,13 +3535,47 @@ form.s1 input:focus {
   border-color: #fff;
   color: #fff;
 }
-form.s1 button {
-  position: absolute;
-  right: 20px;
-  top: 4px;
-  background: transparent !important;
-  border: none;
+.subscribe .tf-button.style1 {
   font-size: 20px;
+  margin-top:30px;
+  color: #0e1927;
+}
+.subscribe .tf-button.style1:hover {
+  color: #0e1927;
+  background-position: 96%;
+}
+.subscribe .form-label{
+  color: #FFFF;
+}
+
+.subscribe .list-group{
+  flex-direction: row;
+  justify-content: center;
+}
+.subscribe-success{
+  background-color: #E6C99A;
+  padding: 10px 2px;
+  margin:20px;
+}
+.subscribe-success .info{
+  font-size: 18px;
+  color:#0e1927 ;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.subscribe .list-group-item{
+  background-color: transparent;
+  border: none;
+  color: #FFFF;
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
+  margin-right: 10px;
+}
+.subscribe .text{
+  color: #E6C9A2;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px !important;
+  margin-top:25px;
 }
 form.s1 button:hover {
   color: #e6c9a2;
@@ -11219,7 +11253,14 @@ img.mfp-img {
   .gallery-ig{
     padding: 0px 0px 30px;
   }
- 
+  .subscribe .list-group{
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 10px;
+  }
+  .subscribe .list-group-item{
+    padding: 0rem;
+  }
 }
 @media only screen and (max-width: 520px) {
   .s-menu .flat-tabs .content-tab .left-img,
