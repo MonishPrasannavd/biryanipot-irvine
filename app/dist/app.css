@@ -3535,16 +3535,22 @@ form.s1 input:focus {
   border-color: #fff;
   color: #fff;
 }
-.subscribe .tf-button.style1 {
+.subscribe .tf-button.style1, .unsubscribe-form .tf-button.style1{
   font-size: 20px;
   margin-top:30px;
   color: #0e1927;
+}
+.unsubscribe-form .tf-button.style1{
+  margin-top: 15px;
+}
+.modal-body .s-formmail{
+  padding: 100px 0 115px;
 }
 .subscribe .tf-button.style1:hover {
   color: #0e1927;
   background-position: 96%;
 }
-.subscribe .form-label{
+.subscribe .form-label, .unsubscribe-form .form-label{
   color: #FFFF;
 }
 
@@ -11421,14 +11427,18 @@ img.mfp-img {
 .modal-body .form-check-label{
   color: #FFFFFF;
 }
-.modal-body .s-formmail .formmail-content .block-text .title{
+.modal-body .s-formmail .formmail-content .unsubscribe-form .title{
   font-size: 1.25rem;
-  margin-bottom: -15px !important;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  margin-bottom:15px ;
 }
-.modal-body form.s1 button{
+.modal-body .s-formmail .block-text .subtitle{
+  font-size: 26px !important;
+}
+/* .modal-body form.s1 button{
   top: 45.5%;
-
-}
+} */
 .s-contact-2 iframe{
   margin-top: 40px;
 }
