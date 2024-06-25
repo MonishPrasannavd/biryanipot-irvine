@@ -1365,17 +1365,22 @@
             }
         })
 
-        // captcha.refresh();
-        // captcha.getCode();
-        // captcha.valid("");
-
-
     </script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var header = document.getElementById('header_main');
+            var modal = document.getElementById('unsubscribe');
 
+            modal.addEventListener('show.bs.modal', function () {
+                header.classList.remove('is-fixed');
+            });
+
+            modal.addEventListener('hidden.bs.modal', function () {
+                header.classList.add('is-fixed');
+            });
+        });
+    </script>
 </body>
-
-
-<!-- Mirrored from themesflat.co/html/restaurant/basilicohtml/home_02.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Jun 2024 06:31:39 GMT -->
 
 </html>
