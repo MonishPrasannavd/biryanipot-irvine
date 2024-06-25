@@ -1370,14 +1370,18 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var header = document.getElementById('header_main');
-            var modal = document.getElementById('unsubscribe');
+            var modals = ['unsubscribe', 'exampleModal'];
 
-            modal.addEventListener('show.bs.modal', function () {
-                header.classList.remove('is-fixed');
-            });
+            modals.forEach(function (modalId) {
+                var modal = document.getElementById(modalId);
 
-            modal.addEventListener('hidden.bs.modal', function () {
-                header.classList.add('is-fixed');
+                modal.addEventListener('show.bs.modal', function () {
+                    header.classList.remove('is-fixed');
+                });
+
+                modal.addEventListener('hidden.bs.modal', function () {
+                    header.classList.add('is-fixed');
+                });
             });
         });
     </script>
