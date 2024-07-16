@@ -145,6 +145,10 @@ h6,
 .container.full {
   max-width: 100%;
 }
+.img-slider{
+  width:100%;
+  height: 350px;
+}
 .container.w_1280 {
   max-width: 1280px;
 }
@@ -1625,7 +1629,7 @@ form button {
 .home-2 .opening-book {
   background: #0e1927;
   height: 583px;
-  padding: 53px 30px;
+  padding: 80px 60px;
   text-align: center;
 }
 .home-2 .opening-book h4 {
@@ -3464,7 +3468,7 @@ form button {
   width: 90px !important;
 }
 .s-formmail {
-  background: url(../../assets/images/section/s-form.jpg) no-repeat;
+  background: url(../../assets/images/section/s-form.webp) no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -3959,7 +3963,7 @@ form.s1 button:hover {
   background-image: url(../../assets/images/section/bg-blog-full.jpg);
 }
 .page-title.p-contact {
-  background-image: url(../../assets/images/contactbackground.webp);
+  background-image: url(../../assets/images/contactbackground1.webp);
 }
 
 .p-menu .page-title {
@@ -10458,6 +10462,10 @@ img.mfp-img {
   .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item {
     margin: 0 50px;
   }
+  .img-mbl-slider{
+    width: 100%;
+    height: 350px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .s-menu-list .portfolio-main .portfolio-box-1 .content {
@@ -10701,6 +10709,10 @@ img.mfp-img {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+  .img-mbl-slider{
+    width: 100%;
+    height: 350px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .page-404 .p404-main .numb img {
@@ -10917,6 +10929,11 @@ img.mfp-img {
   }
   .footer .widget {
     margin-bottom: 30px;
+  }
+ 
+  .home-2 .opening-book {
+    width: auto;
+    height: auto;
   }
  
 }
@@ -11228,10 +11245,7 @@ img.mfp-img {
     width: 100%;
     margin-right: 0;
   }
-  .home-2 .opening-book {
-    width: auto;
-    height: auto;
-  }
+  
   .portfolio-mansonry .row-box {
     flex-wrap: wrap;
   }
@@ -11294,6 +11308,15 @@ img.mfp-img {
   }
   .home-2 .s-menu .flat-tabs .content-tab h5 .txt {
     font-size: 15px;
+  }
+}
+@media only screen and (max-width: 430px){
+  .footer.style-2 .bottom-main ul li{
+    font-size: 11px;
+  }
+  .img-mbl-slider{
+    width: 100%;
+    height: 350px;
   }
 }
 .page-menu1-wrap {
