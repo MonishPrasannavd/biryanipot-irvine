@@ -2623,7 +2623,7 @@ form button {
 
 .s-chef {
   background: #0e1927;
-  padding: 134px 0 96px;
+  padding: 100px 0 96px;
 }
 .s-chef .chef-main {
   display: flex;
@@ -2655,11 +2655,11 @@ form button {
   margin-top: 26px;
 }
 
-.chef-box {
+/* .chef-box {
   max-width: 375px;
   text-align: center;
   width: 100%;
-}
+} */
 .chef-box .img {
   height: 463px;
 }
