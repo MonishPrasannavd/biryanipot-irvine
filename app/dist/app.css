@@ -2654,7 +2654,14 @@ form button {
 .s-chef .block-text.style-2 a {
   margin-top: 26px;
 }
-
+.form-check .input-conform{
+  float: left;
+  margin-left: -1.5em;
+  margin-top: 0.25rem;
+  width: 01em;
+  height: 01em;
+  border: 1px solid #E6C9A2 !important;
+}
 /* .chef-box {
   max-width: 375px;
   text-align: center;
@@ -3566,9 +3573,17 @@ form.s1 input:focus {
   justify-content: center;
 }
 .subscribe-success{
-  background-color: #E6C99A;
-  padding: 10px 2px;
-  margin:20px;
+  background-color: #E6C99A !important;
+  padding: 10px 2px !important;
+  margin:20px !important;
+  text-align: center !important;
+}
+.error-message {
+  color: red;
+}
+.success-message {
+  /* color: #0E1927; */
+  color: green;
 }
 .subscribe-success .info{
   font-size: 18px;

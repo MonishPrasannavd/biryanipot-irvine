@@ -966,16 +966,25 @@
                                 <div class="row justify-content-center">
                                     <div class="col-12 col-md-4">
                                         <label class="form-label" for="">Name</label>
-                                        <input type="text" name="name" placeholder="Name" class="form-control">
+                                        <input type="text" name="name" id="name" placeholder="Name" class="form-control">
                                     </div>
                                     <div class="col-12 col-md-4">
                                         <label class="form-label" for="">Phone Number</label>
-                                        <input type="text" name="phoneno" placeholder="Phone Number"
+                                        <input type="text" name="phoneno" id="phoneno" placeholder="Phone Number"
                                             class="form-control">
                                     </div>
                                     <div class="col-12 col-md-4">
                                         <label class="form-label" for="">Email</label>
-                                        <input type="text" name="email" placeholder="Email Id" class="form-control">
+                                        <input type="text" name="email" id="email" placeholder="Email Id" class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-12 mt-3 text-center">
+                                        <div class="form-check">
+                                            <input class="input-conform" type="checkbox" value="" id="check-form">
+                                            <label class="form-check-label text-light" for="flexCheckDefault">
+                                                By Providing Your phone number, you agree to receive a text message from
+                                                Vitelglobal. Message and Data rates may apply, Message frequency varies.
+                                            </label>
+                                        </div>
                                     </div>
                                     <div class="col-12 col-md-12 text-center">
                                         <div class="info-container">
@@ -987,23 +996,14 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-12 text-center">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                By Providing Your phone number,you agree to receive a text message from
-                                                Vitelglobal.Message and Data rates may apply,Message frequency varies.
-                                            </label>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-12 col-md-12 text-center">
                                         <button class="tf-button style1" type="button"
                                             onclick="showDiv()">Subscribe</button>
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <div id="subscribeSuccess" class="subscribe-success text-center"
-                                            style="display: none;">
-                                            <p class="info">Thank You For Subscribing us</p>
+                                        <div id="subscribeSuccess" class="subscribe-success text-center" style="display: none;">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -1352,37 +1352,144 @@
     <script src="app/js/count-down.js"></script>
     <script src="app/js/countto.js"></script>
     <script src="app/js/jquery-captcha.min.js"></script>
+
+    <!-- <script>
+         function showDiv() {
+            const name = document.getElementById('name').value;
+            const phoneno = document.getElementById('phoneno').value;
+            const email = document.getElementById('email').value;
+            const checkbox = document.getElementById('check-form').checked;
+
+            let valid = true;
+            let message = '';
+
+            if (!name) {
+                valid = false;
+                message += 'Name is required.<br>';
+            }
+
+            if (!phoneno) {
+                valid = false;
+                message += 'Phone Number is required.<br>';
+            }
+
+            if (!email) {
+                valid = false;
+                message += 'Email is required.<br>';
+            }
+
+            if (!checkbox) {
+                valid = false;
+                message += 'You must agree to receive text messages.<br>';
+            }
+
+            const subscribeSuccessDiv = document.getElementById('subscribeSuccess');
+            if (valid) {
+                message = 'Subscription Successful!';
+                subscribeSuccessDiv.className = 'success-message';
+            } else {
+                subscribeSuccessDiv.className = 'error-message';
+            }
+
+            subscribeSuccessDiv.style.display = 'block';
+            subscribeSuccessDiv.innerHTML = message;
+        }
+    </script> -->
+
+    <!-- <script>
+        function showDiv() {
+            const name = document.getElementById('name').value;
+            const phoneno = document.getElementById('phoneno').value;
+            const email = document.getElementById('email').value;
+            const checkbox = document.getElementById('check-form').checked;
+    
+            let valid = true;
+            let message = 'Please fill the following fields:<br>';
+    
+            if (!name) {
+                valid = false;
+                message += '- Name<br>';
+            }
+    
+            if (!phoneno) {
+                valid = false;
+                message += '- Phone Number<br>';
+            }
+    
+            if (!email) {
+                valid = false;
+                message += '- Email<br>';
+            }
+    
+            if (!checkbox) {
+                valid = false;
+                message += '- Agree to receive text messages<br>';
+            }
+    
+            const subscribeSuccessDiv = document.getElementById('subscribeSuccess');
+            if (valid) {
+                message = 'Subscription Successful!';
+                subscribeSuccessDiv.className = 'subscribe-success success-message text-center';
+            } else {
+                subscribeSuccessDiv.className = 'subscribe-success error-message text-center';
+            }
+    
+            subscribeSuccessDiv.style.display = 'block';
+            subscribeSuccessDiv.innerHTML = message;
+        }
+    </script> -->
+
     <script>
         function showDiv() {
-            document.getElementById('subscribeSuccess').style.display = 'block';
-        }
-    </script>
-    <script>
-        const captcha = new Captcha($('#canvas'), {
-            length: 6,
-            autoRefresh: true,
-            caseSensitive: true,
-            width: 100,
-            height: 40,
-            font: 'bold 23px Arial',
-            resourceType: 'aA0',// a-lowercase letters, A-uppercase letter, 0-numbers
-            resourceExtra: [],
-            clickRefresh: true
-        });
-
-        $('#valid').on('click', function () {
-
-            const ans = captcha.valid($('input[name="code"]').val());
-            if (!ans) {
-                $('#captcha-message').show();
-                $('#captcha-form')[0].reset(); // Reset the form
-                $('#unsubscribesuccess').hide(); // Hide the success message
+            const name = document.getElementById('name').value;
+            const phoneno = document.getElementById('phoneno').value;
+            const email = document.getElementById('email').value;
+            const checkbox = document.getElementById('check-form').checked;
+    
+            let allFieldsEmpty = true;
+            let valid = true;
+            let message = '';
+    
+            // Check if all fields are empty
+            if (!name && !phoneno && !email && !checkbox) {
+                allFieldsEmpty = true;
+                valid = false;
+                message = 'Please fill the fields.';
             } else {
-                $('#captcha-message').hide();
-                $('#unsubscribesuccess').show(); // Show the success message
+                allFieldsEmpty = false;
+                // Check individual fields and generate error messages
+                if (!name) {
+                    valid = false;
+                    message += 'Please Enter Name.<br>';
+                }
+    
+                if (!phoneno) {
+                    valid = false;
+                    message += 'Please Enter Mobile Number.<br>';
+                }
+    
+                if (!email) {
+                    valid = false;
+                    message += 'Please Enter Email.<br>';
+                }
+    
+                if (!checkbox) {
+                    valid = false;
+                    message += 'Please agree to receive a text message.<br>';
+                }
             }
-        })
-
+    
+            const subscribeSuccessDiv = document.getElementById('subscribeSuccess');
+            if (valid) {
+                message = 'Thank you for subscribing Biryani Pot!';
+                subscribeSuccessDiv.className = 'subscribe-success success-message text-center';
+            } else {
+                subscribeSuccessDiv.className = 'subscribe-success error-message text-center';
+            }
+    
+            subscribeSuccessDiv.style.display = 'block';
+            subscribeSuccessDiv.innerHTML = message;
+        }
     </script>
 
     <script>
