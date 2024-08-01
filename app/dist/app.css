@@ -1261,7 +1261,7 @@ form button {
   transition: all 0.3s ease;
 }
 .tf-button.style2:hover {
-  color: #e6c9a2;
+  color: #0e1927;
   background-position: 95%;
 }
 .tf-button.style3 {
@@ -1621,15 +1621,15 @@ form button {
 .home-2 .opening .opening-content .block-text p {
   font-size: 17px;
   margin-top: 28px;
-  padding-right: 130px;
+  /* padding-right: 130px; */
   line-height: 27px;
   letter-spacing: 0.15px;
   color: #0e1927;
 }
 .home-2 .opening-book {
   background: #0e1927;
-  height: 583px;
-  padding: 80px 60px;
+  /* height: 583px; */
+  padding: 60px 60px 30px 60px;
   text-align: center;
 }
 .home-2 .opening-book h4 {
@@ -3559,6 +3559,9 @@ form.s1 input:focus {
 }
 .modal-body .s-formmail{
   padding: 100px 0 115px;
+}
+#ordermenu .modal-body .s-formmail{
+  padding: 50px 0px;
 }
 .subscribe .tf-button.style1:hover {
   color: #0e1927;
@@ -9992,7 +9995,21 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px;
   }
-
+  .dropdown-toggle::after{
+    display: none;
+  }
+  .dropdown-menu{
+    width: 100% !important;
+  }
+  .home-2 .opening{
+    padding: 100px 0px 100px;
+  }
+  .home-2 .opening .opening-content{
+    padding: 0px;
+  }
+  .block-text .title{
+    margin-top: 3rem;
+  }
 }
 .mfp-ie7 .mfp-img {
   padding: 0;
@@ -11503,4 +11520,16 @@ img.mfp-img {
   margin-top: 30px;
   font-weight: 300;
 }
+
+ /* .nav-item.dropdown:hover .dropdown-menu {
+  display: block !important;
+  opacity: 1;
+  transition: opacity 5s ease !important;
+}
+
+
+.nav-item.dropdown .dropdown-menu {
+  --bs-dropdown-min-width:8rem;
+  margin-top: 7rem !important;
+} */
 /*# sourceMappingURL=app.css.map */
