@@ -1048,6 +1048,7 @@ form button {
   color: #e6c9a2;
 }
 
+
 .sidebar-content {
   position: absolute;
   right: -100%;
@@ -10363,12 +10364,17 @@ img.mfp-img {
   stroke: #09121D;
 }
 
+.follow-btn{
+  width: 300px;
+}
 /* reponsive
 -------------------------------------------------------------- */
 .show-destop {
   display: block;
 }
-
+.contact-p{
+  padding: 120px 0 100px;
+}
 @media only screen and (max-width: 1760px) {
   .s-contact-2 .contact-main {
     flex-wrap: wrap;
