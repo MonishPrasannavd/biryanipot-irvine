@@ -189,6 +189,12 @@ var swiper1 = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    autoplay: {
+      delay: 3000, // Global autoplay setting
+      disableOnInteraction: false,
+    },
+    loop:true,
+    speed: 2000,
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -197,10 +203,12 @@ var swiper1 = new Swiper(".mySwiper", {
       991: {
         slidesPerView: 3,
         spaceBetween: 30,
+        autoplay:false,
       },
       1440: {
         slidesPerView: 3,
         spaceBetween: 30,
+        autoplay:false,
       },
     },
 
