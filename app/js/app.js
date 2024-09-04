@@ -254,8 +254,7 @@
             $(this).toggleClass("active");     
             $('.sidebar-content').toggleClass("active");      
         });
-      });
-    var ajaxSubscribe = {
+      });    var ajaxSubscribe = {
         obj: {
             subscribeEmail: $('#subscribe-email'),
             subscribeButton: $('#subscribe-button'),
