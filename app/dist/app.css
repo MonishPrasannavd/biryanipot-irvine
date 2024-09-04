@@ -1942,6 +1942,13 @@ form button {
 .home-4 .s-menu {
   background: #fff;
 }
+.home-6 .s-menu{
+  margin-top: 370px;
+  margin-bottom: 4rem;
+  padding: 127px 0 134px !important;
+  background: #0e1927 !important;
+  position: relative !important;
+}
 .home-3 .s-menu > img.item-right,
 .home-4 .s-menu > img.item-right {
   position: absolute;
@@ -2820,6 +2827,12 @@ form button {
 }
 .block-text.style-2 .title {
   color: #fff;
+}
+.home-6 .block-text.style-2 .subtitle{
+  color: #e6c9a2 !important;
+}
+.home-6 .block-text.style-2 .title {
+  color: #fff !important;
 }
 .block-text.style-2 .text {
   color: #fff;
