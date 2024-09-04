@@ -1769,6 +1769,24 @@ form button {
   border-radius: 50%;
   overflow: hidden;
 }
+.home-6 .s-menu .flat-tabs .content-tab .left-img,
+.home-6 .s-menu .flat-tabs .content-tab .right-img {
+  position: absolute;
+  top: 35%;
+  width: 411px;
+  height: 411px;
+  min-width: 411px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.home-6 .s-menu .flat-tabs .content-tab .left-img{
+  left: 0;
+}
+.home-6 .s-menu .flat-tabs .content-tab .right-img{
+  right: 10px;
+}
+
+
 .s-menu .flat-tabs .content-tab .left-img img,
 .s-menu .flat-tabs .content-tab .right-img img {
   width: 100%;
@@ -11566,7 +11584,9 @@ img.mfp-img {
   background: #0E1927; 
   width: 10px;
 }
-
+.mb-100{
+  margin-bottom: 20rem;
+}
  /* .nav-item.dropdown:hover .dropdown-menu {
   display: block !important;
   opacity: 1;
