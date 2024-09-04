@@ -6652,7 +6652,7 @@ form.s2 a::before {
   background: #e6c9a2;
   margin: 0 auto;
   margin-bottom: 12px;
-  margin-top: 16px;
+  margin-top: 0px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -6975,7 +6975,7 @@ form.s2 a::before {
   color: #e6c9a2;
   text-decoration: underline;
   font-size: 13px;
-  margin-bottom: 89px;
+  margin-bottom: 60px;
   letter-spacing: 2px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -7006,7 +7006,8 @@ form.s2 a::before {
   margin-bottom: 0;
 }
 .s-menu-list .portfolio-main .portfolio-box-1:hover .content {
-  padding: 26px 55px 96px;
+  /* padding: 26px 55px 96px; */
+  padding: 80px 55px;
   top: 7%;
 }
 .s-menu-list .portfolio-main .portfolio-box-1:hover .content .name {
