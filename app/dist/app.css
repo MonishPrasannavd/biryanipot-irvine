@@ -4017,7 +4017,7 @@ form.s1 button:hover {
 }
 
 .p-menu .page-title {
-  background: url("../../assets/images/section/bg-menu.jpg") no-repeat;
+  background: url("../../assets/images/catering/catering-banner.webp") no-repeat;
   background-size: cover;
   background-position: center 30%;
   position: relative;
@@ -11586,6 +11586,11 @@ img.mfp-img {
 }
 .mb-100{
   margin-bottom: 15rem;
+}
+.subtitle b{
+  color: #0E1927 !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
 }
  /* .nav-item.dropdown:hover .dropdown-menu {
   display: block !important;
