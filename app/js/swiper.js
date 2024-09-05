@@ -201,12 +201,12 @@ var swiper1 = new Swiper(".mySwiper", {
         spaceBetween: 30,
       },
       991: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 30,
         autoplay:false,
       },
       1440: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 30,
         autoplay:false,
       },

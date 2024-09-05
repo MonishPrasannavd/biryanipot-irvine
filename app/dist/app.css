@@ -7050,7 +7050,7 @@ form.s2 a::before {
 }
 
 .s-menu.p-list {
-  padding: 437px 0 0px;
+  padding: 100px 0 0px;
 }
 .s-menu.p-list .block-text .subtitle {
   margin-bottom: 20px;
@@ -11585,7 +11585,7 @@ img.mfp-img {
   width: 10px;
 }
 .mb-100{
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
  /* .nav-item.dropdown:hover .dropdown-menu {
   display: block !important;
