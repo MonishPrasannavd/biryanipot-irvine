@@ -1568,7 +1568,7 @@ form button {
 }
 .menu-list h5 {
   color: #e6c9a2;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: flex;
   justify-content: space-between;
   letter-spacing: 1.3px;
