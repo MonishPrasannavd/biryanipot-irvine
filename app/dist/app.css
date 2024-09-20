@@ -1005,7 +1005,7 @@ form button {
   position: relative;
   display: block;
   line-height: 1.5;
-  text-transform: uppercase;
+ text-transform: capitalize;
   color: #fff;
 }
 #main-nav .menu li a:hover {
@@ -1214,7 +1214,7 @@ form button {
   font-weight: 500;
   letter-spacing: 1.9px;
   line-height: 50px;
-  /* text-transform: uppercase; */
+  text-transform: capitalize;
   background-size: 300%;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1299,7 +1299,7 @@ form button {
 }
 
 .readmore {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
   padding-bottom: 3px;
   border-bottom: 1px solid #0e1927;
@@ -1459,7 +1459,7 @@ form button {
 }
 .home-4 .about-info .about-box h5 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -1475,7 +1475,7 @@ form button {
 
 .block-text .subtitle {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
   letter-spacing: 2.7px;
   position: relative;
@@ -1503,7 +1503,7 @@ form button {
 }
 .block-text .title {
   margin-left: -3px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2px;
   line-height: 1.4;
   margin-bottom: 21px;
@@ -1538,7 +1538,7 @@ form button {
 }
 .opening .opening-content .d-flex h5 {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   margin-bottom: 16px;
 }
@@ -1636,7 +1636,7 @@ form button {
 .home-2 .opening-book h4 {
   font-size: 25px;
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 19px;
   letter-spacing: 1px;
 }
@@ -1745,7 +1745,7 @@ form button {
 }
 .s-menu .flat-tabs .menu-tab li h5 {
   font-size: 17px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -1824,7 +1824,7 @@ form button {
 }
 .flat-tabs .menu-tab li h5 {
   font-size: 17px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
 }
 .flat-tabs .menu-tab li.active h5 {
@@ -1881,7 +1881,7 @@ form button {
 .home-2 .s-menu .flat-tabs .menu-tab .heading {
   color: #e6c9a2;
   font-size: 17px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 3px;
   margin-bottom: 28px;
 }
@@ -2110,7 +2110,7 @@ form button {
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.8;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 22px;
 }
 .home-4 .s-menu .menu-content .block-text .line {
@@ -2138,7 +2138,7 @@ form button {
 }
 .home-4 .s-book .book-content .block-text .sub {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
@@ -2178,7 +2178,7 @@ form button {
 }
 .home-4 .s-book.style-1 .sub {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
@@ -2390,7 +2390,7 @@ form button {
 }
 .choose .choose-content .flat-tabs .menu-tab li h5 {
   font-size: 17px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #a5a5a5;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -2430,7 +2430,7 @@ form button {
   background: #fff;
   color: #0e1927;
   text-align: center;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
   line-height: 25px;
   letter-spacing: 2.4px;
@@ -2457,7 +2457,7 @@ form button {
 }
 .testimonials .testimonials-content h4 {
   font-size: 25px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-weight: 500;
   color: #fff;
   letter-spacing: 1.3px;
@@ -2472,7 +2472,7 @@ form button {
 }
 .testimonials .testimonials-content h5 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
 }
 .testimonials .testimonials-content ul {
@@ -2612,7 +2612,7 @@ form button {
 }
 .vouchers .vouchers-content .content h4 {
   font-size: 30px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
   margin-bottom: 17px;
 }
@@ -2707,7 +2707,7 @@ form button {
 }
 .chef-box .info h5 {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   letter-spacing: 2px;
   margin-bottom: 4px;
@@ -2715,7 +2715,7 @@ form button {
 .chef-box .info p {
   color: #e6c9a2;
   font-size: 13px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.5px;
 }
 
@@ -2925,7 +2925,7 @@ form button {
 .s-blog .blog-box .top-content .meta p {
   margin-bottom: 0;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
 }
 .s-blog .blog-box .top-content .title {
@@ -2937,7 +2937,7 @@ form button {
   color: #fff;
   font-size: 20px;
   line-height: 30px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   padding-right: 15px;
 }
@@ -2967,7 +2967,7 @@ form button {
   background: #0e1927;
 }
 .s-blog .blog-box .bottom-content ul li a {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
 }
 .s-blog .blog-box .bottom-content .line {
@@ -2982,7 +2982,7 @@ form button {
 }
 .s-blog .blog-box .bottom-content .btn-read {
   font-size: 13px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
   letter-spacing: 2.4px;
   position: relative;
@@ -3046,7 +3046,7 @@ form button {
 }
 .gallery-box .content .name {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
   margin-bottom: 0;
 }
@@ -3113,7 +3113,7 @@ form button {
 }
 .portfolio-box .content .name {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
   margin-bottom: 6px;
   line-height: 1.5;
@@ -3206,7 +3206,7 @@ form button {
   letter-spacing: 0.1px;
 }
 .location .content h6 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 11px;
 }
 .location .content p {
@@ -3246,7 +3246,7 @@ form button {
 }
 .couter-box .text {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-family: "Cerebri Sans";
   letter-spacing: 1.7px;
 }
@@ -3370,7 +3370,7 @@ form button {
 .list li {
   width: 50%;
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   list-style-type: disc;
   color: #0e1927;
   letter-spacing: 1px;
@@ -3411,7 +3411,7 @@ form button {
 }
 .vouchers .vouchers-main .left .content h4 {
   font-size: 30px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.6px;
   margin-bottom: 17px;
   margin-top: -3px;
@@ -3702,7 +3702,7 @@ form.s1 button:hover {
 }
 .services-box .content a {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   font-family: "Audrey";
   letter-spacing: 1px;
@@ -3742,7 +3742,7 @@ form.s1 button:hover {
 .s-order .order-main .order.order-box h4 {
   font-size: 30px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 17px;
 }
 .s-order .order-main .order.order-box a {
@@ -3797,7 +3797,7 @@ form.s1 button:hover {
 }
 .s-book .book-content .block-text h5 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   margin-bottom: 17px;
 }
@@ -3920,7 +3920,7 @@ form.s1 button:hover {
 }
 .page-404 .p404-main h3 {
   font-size: 40px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 26px;
 }
 .page-404 .p404-main p {
@@ -3954,7 +3954,7 @@ form.s1 button:hover {
 }
 .page-title .page-title-main .title {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 127px;
   position: relative;
   display: inline-block;
@@ -3984,7 +3984,7 @@ form.s1 button:hover {
 .page-title .page-title-main .breacrumd li {
   font-size: 13px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin: 0 3px;
   letter-spacing: 2px;
 }
@@ -4106,7 +4106,7 @@ form.s1 button:hover {
 }
 .p-about .event .event-main .event-content .flat-tabs .menu-tab li h5 {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   letter-spacing: 0.8px;
 }
@@ -4222,7 +4222,7 @@ form.s1 button:hover {
 }
 .careers .careers-main .careers-content h5 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 14px;
   font-size: 15px;
   line-height: 23px;
@@ -4320,7 +4320,7 @@ form.s1 button:hover {
   background: transparent;
   color: #0e1927;
   font-family: "Audrey";
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 17px;
   position: relative;
   border-bottom: 1px solid #0e1927;
@@ -4433,7 +4433,7 @@ form.s1 button:hover {
 }
 
 .faq-main .title {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 
 .s-menu .gallery-main {
@@ -4472,12 +4472,12 @@ form.s1 button:hover {
   font-size: 75px;
   margin-bottom: 58px;
   letter-spacing: 8px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 .comingsoon .comingsoon-main .sub {
   font-size: 30px;
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
 }
@@ -4508,7 +4508,7 @@ form.s1 button:hover {
   bottom: -30px;
   font-size: 17px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-family: "Cerebri Sans", sans-serif;
 }
 .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item:nth-child(1)::after, .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item:nth-child(2)::after, .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item:nth-child(3)::after, .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item:nth-child(4)::after {
@@ -4518,7 +4518,7 @@ form.s1 button:hover {
   bottom: 25px;
   font-size: 35px;
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 .comingsoon .comingsoon-main .js-countdown .countdown__timer .countdown__item:nth-child(2)::before {
   content: "Hours";
@@ -4541,7 +4541,7 @@ form.s1 button:hover {
 .comingsoon .comingsoon-main h5 {
   font-size: 23px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   margin-bottom: 46px;
 }
@@ -4647,7 +4647,7 @@ form.s1 button:hover {
   margin-bottom: 0;
 }
 .history-box .content h4 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 30px;
   letter-spacing: 1.2px;
   margin-bottom: 11px;
@@ -4682,14 +4682,14 @@ form.s1 button:hover {
 }
 .location-box .box .box-content .sub {
   font-size: 13px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #e6c9a2;
   letter-spacing: 1.8px;
   margin-bottom: 6px;
 }
 .location-box .box .box-content h5 {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   letter-spacing: 1px;
   margin-bottom: 14px;
@@ -4719,7 +4719,7 @@ form.s1 button:hover {
   background: #e6c9a2;
   color: #0e1927;
   font-size: 13px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-family: "Cerebri Sans";
   text-align: center;
   padding: 13px 0;
@@ -4776,7 +4776,7 @@ form.s1 button:hover {
 }
 .gift-vouchers .gift-vouchers-main h4 {
   font-size: 30px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.6px;
   margin-bottom: 27px;
 }
@@ -4868,7 +4868,7 @@ form.s1 button:hover {
 .s-gift-vouchers .s-gift-vouchers-list .main .gift-vouchers-box .content .title {
   font-size: 20px;
   color: #0e1927;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 1px;
   font-family: "Audrey";
@@ -4966,7 +4966,7 @@ form.s1 button:hover {
   z-index: 2;
   left: 40px;
   bottom: 27px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   font-size: 23px;
   letter-spacing: 1.2px;
@@ -4984,7 +4984,7 @@ form.s1 button:hover {
   margin: 32px 0 43px;
 }
 .vouchers-details .vouchers-details-main .left .content h4 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 30px;
   letter-spacing: 1.4px;
   margin-bottom: 23px;
@@ -5065,7 +5065,7 @@ form.s1 button:hover {
 }
 .vouchers-details .vouchers-details-main .right .question .top h5 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 17px;
   letter-spacing: 1px;
   margin-bottom: 0;
@@ -5154,7 +5154,7 @@ form.s2 a::before {
   font-size: 26px;
 }
 .s-contact .contact-info .item h5 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 14px;
@@ -5210,7 +5210,7 @@ form.s2 a::before {
   padding: 131px 102px 143px 96px;
 }
 .s-contact-2 .contact-main form .title {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -5249,7 +5249,7 @@ form.s2 a::before {
 }
 .s-contact-2 .contact-main .info-location h4 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2.8px;
   margin-bottom: 62px;
 }
@@ -5261,7 +5261,7 @@ form.s2 a::before {
 }
 .s-contact-2 .contact-main .info-location ul li h5 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 18px;
 }
 .s-contact-2 .contact-main .info-location ul li p {
@@ -5353,12 +5353,12 @@ form.s2 a::before {
   padding: 0 30px;
 }
 .blog-sidebar .blog-sidebar-main .main-sidebar .widget.avt .info .unit {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
   margin-bottom: 6px;
 }
 .blog-sidebar .blog-sidebar-main .main-sidebar .widget.avt .info .name {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 1.7px;
@@ -5400,7 +5400,7 @@ form.s2 a::before {
 }
 .blog-sidebar .blog-sidebar-main .main-sidebar .widget .heading-top h5 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.8px;
   margin-bottom: 0;
 }
@@ -5474,7 +5474,7 @@ form.s2 a::before {
 .blog-sidebar .blog-sidebar-main .main-sidebar .widget.latest .content ul li .info .title {
   font-size: 15px;
   font-family: "Audrey";
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
 }
 .blog-sidebar .blog-sidebar-main .main-sidebar .widget.latest .content ul li .info .meta {
@@ -5554,7 +5554,7 @@ form.s2 a::before {
 .blog-box-2 .content .title {
   font-size: 25px;
   line-height: 42px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
   letter-spacing: 1px;
   margin-bottom: 11px;
@@ -5586,7 +5586,7 @@ form.s2 a::before {
 }
 .blog-box-3 .text {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 1.8;
   margin-bottom: 29px;
@@ -5608,7 +5608,7 @@ form.s2 a::before {
 }
 .blog-box-3 h5 {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   line-height: 1.6;
   letter-spacing: 1px;
@@ -5712,7 +5712,7 @@ form.s2 a::before {
   right: -30px;
   font-family: "Cerebri Sans", sans-serif;
   font-weight: 400;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 20px;
   padding: 5px;
   transform: translateY(-50%);
@@ -5765,7 +5765,7 @@ form.s2 a::before {
 .blog-creative .blog-creative-main .top .watch-video {
   line-height: 1;
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #fff;
   border-bottom: 1px solid #fff;
   padding: 0;
@@ -5775,7 +5775,7 @@ form.s2 a::before {
 }
 .blog-creative .blog-creative-main .main .title {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-family: "Audrey";
   font-size: 45px;
   letter-spacing: 2px;
@@ -5844,7 +5844,7 @@ form.s2 a::before {
   font-size: 20px;
   letter-spacing: 2.7px;
   line-height: 1.6;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   text-decoration: underline;
   margin-bottom: 4px;
 }
@@ -5886,14 +5886,14 @@ form.s2 a::before {
 }
 .blog-box-popular .content .category {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
   letter-spacing: 1px;
 }
 .blog-box-popular .content .title {
   font-size: 20px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 1.5;
   margin-bottom: 14px;
@@ -6003,7 +6003,7 @@ form.s2 a::before {
   padding-top: 24px;
 }
 .blog-box-4 .content .category {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
   color: #0e1927;
   letter-spacing: 1.2px;
@@ -6011,7 +6011,7 @@ form.s2 a::before {
 }
 .blog-box-4 .content .title {
   font-size: 20px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #0e1927;
   letter-spacing: 1px;
   margin-bottom: 21px;
@@ -6103,7 +6103,7 @@ form.s2 a::before {
 .blog-single .blog-box-2 .author h6 {
   font-size: 15px;
   font-weight: 500;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 0.3px;
   padding-right: 15px;
   line-height: 1.8;
@@ -6129,7 +6129,7 @@ form.s2 a::before {
 }
 .blog-single .blog-box-2 h5 {
   font-size: 25px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 18px;
   letter-spacing: 1.3px;
 }
@@ -6162,7 +6162,7 @@ form.s2 a::before {
 }
 .blog-single .bottom .share p {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 0;
   margin-right: 7px;
 }
@@ -6182,7 +6182,7 @@ form.s2 a::before {
   color: #fff;
 }
 .blog-single .comment h4 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 30px;
   margin-bottom: 32px;
   letter-spacing: 1.3px;
@@ -6216,7 +6216,7 @@ form.s2 a::before {
 }
 .blog-single .comment .author .top .info h5 {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 8px;
@@ -6362,7 +6362,7 @@ form.s2 a::before {
 .blog-box-5 .top-content .meta p {
   margin-bottom: 0;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
 }
 .blog-box-5 .bottom-content .d-flex {
@@ -6373,7 +6373,7 @@ form.s2 a::before {
 }
 .blog-box-5 .bottom-content .title {
   font-size: 25px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.2px;
   margin-bottom: 15px;
   color: #0e1927;
@@ -6418,7 +6418,7 @@ form.s2 a::before {
   border-bottom: 1px solid #e6c9a2;
 }
 .blog-box-5 .right .right-box .box-list li.tag span, .blog-box-5 .right .right-box .box-list li.cmt span {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 .blog-box-5 .right .right-box .box-list li.cmt {
   margin-bottom: 20px;
@@ -6453,7 +6453,7 @@ form.s2 a::before {
 }
 .blog-box-6 .text {
   font-size: 17px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-weight: 400;
   color: #fff;
   letter-spacing: 0.34px;
@@ -6610,7 +6610,7 @@ form.s2 a::before {
   background: #fff;
   color: #0e1927;
   text-align: center;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 13px;
   letter-spacing: 2px;
   line-height: 2;
@@ -6668,7 +6668,7 @@ form.s2 a::before {
 }
 .portfolio-box-1 .content .name {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
   margin-bottom: 0px;
   line-height: 3;
@@ -6824,7 +6824,7 @@ form.s2 a::before {
 }
 .portfolio-mansonry .portfolio-box-2 .content .name {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.3px;
   margin-bottom: 1px;
   line-height: 1.5;
@@ -6891,13 +6891,13 @@ form.s2 a::before {
 }
 .portfolio-details .portfolio-details-main .content .left h4 {
   font-size: 35px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 1.8px;
   margin-bottom: 14px;
 }
 .portfolio-details .portfolio-details-main .content .left h5 {
   font-size: 25px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 12px;
 }
 .portfolio-details .portfolio-details-main .content .left ul {
@@ -6922,7 +6922,7 @@ form.s2 a::before {
 }
 .portfolio-details .portfolio-details-main .content .right .details .top h6 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 0;
 }
 .portfolio-details .portfolio-details-main .content .right .details .main {
@@ -6934,7 +6934,7 @@ form.s2 a::before {
 }
 .portfolio-details .portfolio-details-main .content .right .details .main ul li h6 {
   color: #0e1927;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 2px;
 }
 .portfolio-details .portfolio-details-main .content .right .details .main ul li p {
@@ -7165,11 +7165,11 @@ form.s2 a::before {
   padding-right: 82px;
 }
 .s-menu.zingzac .menu-content .menu-main .menu-list .sub-title {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2.4px;
 }
 .s-menu.zingzac .menu-content .menu-main .menu-list h4 {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 30px;
   margin-bottom: 40px;
 }
@@ -7363,12 +7363,12 @@ form.s2 a::before {
 }
 .mySwiper .box-slider .content-box p.sub {
   font-size: 13px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   color: #e6c9a2;
   letter-spacing: 3px;
 }
 .mySwiper .box-slider .content-box .title {
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 2.7px;
   line-height: 1.25;
   margin-bottom: 12px;
@@ -7424,7 +7424,7 @@ form.s2 a::before {
 }
 .mySwiper .contact-info .left h6 {
   font-size: 15px;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   letter-spacing: 0.7px;
   color: #e6c9a2;
   margin-top: 4px;
@@ -7853,7 +7853,7 @@ form.s2 a::before {
 }
 .footer .widget h5 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   font-size: 20px;
   letter-spacing: 1px;
   position: relative;
@@ -7970,7 +7970,7 @@ form.s2 a::before {
 .footer .bottom-main ul li a {
   letter-spacing: 0.8px;
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 .footer .bottom-main ul li a:hover {
   color: #e6c9a2;
@@ -7996,7 +7996,7 @@ form.s2 a::before {
 }
 .footer.style-2 .widget.locations ul li p span {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   display: block;
 }
 .footer.style-2 .widget.locations ul li p span::before {
@@ -11462,12 +11462,12 @@ img.mfp-img {
 }
 .page-menu1-wrap .sidebar .action h6 {
   color: #e6c9a2;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 4px;
 }
 .page-menu1-wrap .sidebar .action h4 {
   color: #fff;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   margin-bottom: 37px;
   letter-spacing: 1.4px;
 }
@@ -11480,7 +11480,7 @@ img.mfp-img {
   background-color: transparent;
   border: none;
   color: #FFFFFF;
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
 }
 .bottom-main button:hover{
   color: #E6C99A;
@@ -11553,7 +11553,7 @@ img.mfp-img {
  
 }
 .s-couter h2{
-  /* text-transform: uppercase; */
+ text-transform: capitalize;
   word-spacing: 1px !important;
   margin-top: 30px;
   font-weight: 300;
