@@ -1005,7 +1005,7 @@ form button {
   position: relative;
   display: block;
   line-height: 1.5;
- text-transform: capitalize;
+ text-transform: uppercase;
   color: #fff;
 }
 #main-nav .menu li a:hover {
