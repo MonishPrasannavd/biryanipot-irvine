@@ -3949,7 +3949,7 @@ form.s1 button:hover {
 }
 .about-about::before{
   background: rgba(0, 0, 0, 0.45) !important;
-  z-index: 2;
+  z-index: 1;
 }
 .page-title .page-title-main {
   position: relative;
