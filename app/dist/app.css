@@ -3948,7 +3948,8 @@ form.s1 button:hover {
   z-index: 1;
 }
 .about-about::before{
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: rgba(0, 0, 0, 0.45) !important;
+  z-index: 2;
 }
 .page-title .page-title-main {
   position: relative;
