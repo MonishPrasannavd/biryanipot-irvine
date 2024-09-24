@@ -10581,6 +10581,9 @@ img.mfp-img {
   .header #site-header-inner .tf-button {
     display: none;
   }
+  .s-chef .tf-button{
+    padding: 0px 5px;
+  }
   .s-menu .flat-tabs .content-tab .left-img, .s-menu .flat-tabs .content-tab .right-img {
     position: static;
     margin: 0 20px 60px;
