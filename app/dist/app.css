@@ -894,7 +894,7 @@ form button {
 }
 .header .main-nav {
   position: absolute;
-  left: 25%;
+  left: 22%;
   top: 52%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
