@@ -1507,6 +1507,7 @@ form button {
   letter-spacing: 2px;
   line-height: 1.4;
   margin-bottom: 21px;
+  font-weight: 600;
 }
 .block-text .tf-button {
   margin-top: 37px;
@@ -4655,8 +4656,11 @@ form.s1 button:hover {
   font-size: 30px;
   letter-spacing: 1.2px;
   margin-bottom: 11px;
+  font-weight: 700;
 }
-
+.history-box .content h5{
+  font-weight: 600;
+}
 .s-location {
   padding: 137px 0 134px;
 }
