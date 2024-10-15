@@ -28,6 +28,27 @@
   font-style: normal;
   font-display: block;
 }
+/* @font-face {
+  font-family: "Poppins";
+  src: url("../../assets/font/Poppins-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../assets/font/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("../../assets/font/Lexend-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+} */
 html {
   margin-right: 0 !important;
 }
