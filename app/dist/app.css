@@ -41,14 +41,14 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
-}
+} */
 @font-face {
   font-family: "Lexend";
   src: url("../../assets/font/Lexend-Bold.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: block;
-} */
+}
 html {
   margin-right: 0 !important;
 }
@@ -4036,7 +4036,7 @@ form.s1 button:hover {
   background-image: url(../../assets/images/section/bg-portfolio.jpg);
 }
 .page-title.p-blog-full {
-  background-image: url(../../assets/images/section/bg-blog-full.jpg);
+  background-image: url(../../assets/images/blog/blog-banner.webp);
 }
 .page-title.p-contact {
   background-image: url(../../assets/images/contactbackground1.webp);
