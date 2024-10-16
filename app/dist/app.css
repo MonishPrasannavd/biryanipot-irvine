@@ -5352,7 +5352,7 @@ form.s2 a::before {
   display: flex;
 }
 .blog-sidebar .blog-sidebar-main .main-content {
-  width: 65.85%;
+  width: 100%;
 }
 .blog-sidebar .blog-sidebar-main .main-sidebar {
   width: 34.15%;
