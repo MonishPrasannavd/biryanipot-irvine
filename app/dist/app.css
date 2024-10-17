@@ -2904,14 +2904,14 @@ form button {
   position: relative;
 }
 .s-blog .blog-box .top-content .image {
-  height: auto;
+  height: 425px;
   position: relative;
   overflow: hidden;
 }
 .s-blog .blog-box .top-content .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -5557,7 +5557,7 @@ form.s2 a::before {
 .blog-box-2 .image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit:fill; */
 }
 .blog-box-2 .meta {
   background: #0e1927;
