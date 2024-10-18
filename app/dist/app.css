@@ -5351,9 +5351,9 @@ form.s2 a::before {
 .blog-sidebar {
   padding: 137px 0;
 }
-.blog-sidebar .container {
+/* .blog-sidebar .container {
   max-width: 1200px;
-}
+} */
 .blog-sidebar .blog-sidebar-main {
   display: flex;
 }
@@ -6102,7 +6102,7 @@ form.s2 a::before {
 }
 
 .blog-single {
-  padding: 134px 0;
+  padding:0px 0;
 }
 .blog-single .blog-box-2 {
   margin-bottom: 0;
