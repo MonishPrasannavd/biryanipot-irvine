@@ -2880,9 +2880,9 @@ form button {
   letter-spacing: 0.5px;
 }
 
-.s-blog {
+/* .s-blog {
   padding: 127px 0 137px;
-}
+} */
 .s-blog .container {
   max-width: 1200px;
 }
@@ -2925,7 +2925,7 @@ form button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.349);
+  /* background: rgba(0, 0, 0, 0.349); */
   z-index: 1;
 }
 .s-blog .blog-box .top-content .meta {
@@ -2962,6 +2962,12 @@ form button {
  text-transform: capitalize;
   letter-spacing: 1px;
   padding-right: 15px;
+}
+.bottom-content .title{
+  font-size: 24px !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  margin-bottom: 0px !important;
 }
 .s-blog .blog-box .top-content .title:hover {
   color: #e6c9a2;
@@ -5297,9 +5303,9 @@ form.s2 a::before {
   color: #fff;
 }
 
-.s-blog.blog-list {
+/* .s-blog.blog-list {
   padding: 137px 0 62px;
-}
+} */
 .s-blog.blog-list .blog-form {
   background: rgb(249, 241, 232);
   padding: 68px 30px 56px;
@@ -5330,7 +5336,7 @@ form.s2 a::before {
   color: #0e1927;
 }
 .s-blog.blog-list .blog-main {
-  padding: 126px 0 0;
+  padding:50px 0 0;
 }
 .s-blog.blog-list .blog-main .block-text {
   margin-bottom: 65px;
