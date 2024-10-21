@@ -2904,7 +2904,8 @@ form button {
   position: relative;
 }
 .s-blog .blog-box .top-content .image {
-  height: 425px;
+  height: 100%;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
