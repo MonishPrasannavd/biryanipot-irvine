@@ -177,19 +177,19 @@ var swiper = new Swiper(".testimonialPortfolio1", {
   },
 });
 
-var swiper = new Swiper(".testimonialPortfolio3", {
+// var swiper = new Swiper(".testimonialPortfolio3", {
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
 
 
 
-});
+// });
 
 
 var swiper = new Swiper(".testimonialPortfolio4", {
@@ -224,19 +224,60 @@ var swiper = new Swiper(".testimonialPortfolio4", {
 
 });
 
+// var swiper = new Swiper(".testimonialPortfolio3", {
+
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   slidesPerView: 1,
+//   // spaceBetween: 30,
+//   spaceBetween: 30,
+//   loop: true,
+
+
+
+// });
+
 var swiper = new Swiper(".testimonialPortfolio3", {
 
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 1,
-  spaceBetween: 30,
+
+  // Center the active slide
+  centeredSlides: true,
+
+  // Enable infinite looping
   loop: true,
 
+  // Space between the slides
+  spaceBetween: 30,
 
+  // Show partial next and previous slides (adjust 1.6 as needed)
+  slidesPerView: 1.2,
 
+  // Add autoplay for auto-slide functionality
+  autoplay: {
+    delay: 3000, // 3 seconds delay between auto-slides
+    disableOnInteraction: false, // Auto-slide will continue after user interaction
+  },
+
+  // Smooth transition speed (for slide transitions)
+  speed: 3000, // 1 second smooth transition
+  
+  // Optional: Use 'coverflow' effect for better visual appearance
+  effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 50,  // Rotate the slides slightly
+    stretch: 0,  // Don't stretch the slides
+    depth: 100,  // Set depth to create a 3D effect
+    modifier: 1, // Effect multiplier
+    slideShadows: true, // Add shadows to the slides
+  },
 });
+
 
 
 var swiper = new Swiper(".aboutSwiper", {
