@@ -256,7 +256,7 @@ var swiper = new Swiper(".testimonialPortfolio3", {
   // spaceBetween: 30,
 
   // Show partial next and previous slides (adjust 1.6 as needed)
-  slidesPerView: 1.6,
+  slidesPerView: 1,
 
   // Add autoplay for auto-slide functionality
   autoplay: {
