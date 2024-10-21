@@ -253,10 +253,10 @@ var swiper = new Swiper(".testimonialPortfolio3", {
   loop: true,
 
   // Space between the slides
-  spaceBetween: 30,
+  // spaceBetween: 30,
 
   // Show partial next and previous slides (adjust 1.6 as needed)
-  slidesPerView: 1.2,
+  slidesPerView: 1.6,
 
   // Add autoplay for auto-slide functionality
   autoplay: {
