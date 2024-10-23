@@ -64,6 +64,39 @@ var swiper = new Swiper(".blogSwiper", {
 });
 
 
+var swiper = new Swiper(".single-page-swiper", {
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // Enable auto-slide with smooth transitions
+  autoplay: {
+    delay: 3000,  // Time delay between slides (in milliseconds)
+    disableOnInteraction: false, // Keep autoplay running even after user interaction
+  },
+  speed: 2000,
+  // Enable infinite looping
+  loop: true,
+
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    991: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+  },
+});
+
+
 var swiper = new Swiper(".popularSwiper", {
 
   navigation: {
