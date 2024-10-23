@@ -6449,7 +6449,7 @@ form.s2 a::before {
 
 .blog-box-2 .image {
   position: relative;
-  height: 425px;
+  height: auto;
   width: 100%;
 }
 
