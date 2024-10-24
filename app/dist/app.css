@@ -12309,6 +12309,11 @@ screen and (max-height: 300px) {
     display: none;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .s-menu.s1 {
+      padding-bottom: 300px !important;
+  }
+}
 
 @media only screen and (max-width: 1380px) {
   #main-nav .menu li {
