@@ -3334,15 +3334,18 @@ form button {
   z-index: 2;
   background: #0e1927;
   text-align: center;
-  padding: 22px 13px 18px;
+  padding: 14px 5px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .s-blog .blog-box .top-content .meta h4 {
-  font-size: 35px;
+  font-size: 20px;
   color: #e6c9a2;
   margin-bottom: 0;
   line-height: 1;
   margin-bottom: -2px;
+  margin-right: 8px;
 }
 
 .s-blog .blog-box .top-content .meta p {

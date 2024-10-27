@@ -43,7 +43,7 @@ var swiper = new Swiper(".blogSwiper", {
     delay: 3000,  // Time delay between slides (in milliseconds)
     disableOnInteraction: false, // Keep autoplay running even after user interaction
   },
-  speed: 2000,
+  speed: 3000,
   // Enable infinite looping
   loop: true,
 
@@ -57,7 +57,7 @@ var swiper = new Swiper(".blogSwiper", {
       spaceBetween: 30,
     },
     991: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 30,
     },
   },
