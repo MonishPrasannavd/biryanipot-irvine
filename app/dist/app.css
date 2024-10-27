@@ -3327,6 +3327,24 @@ form button {
   z-index: 1;
 }
 
+/* .s-blog .blog-box .top-content .meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: #0e1927;
+  text-align: center;
+  padding: 22px 13px 18px;
+}
+
+.s-blog .blog-box .top-content .meta h4 {
+  font-size: 35px;
+  color: #e6c9a2;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-bottom: -2px;
+} */
+
 .s-blog .blog-box .top-content .meta {
   position: absolute;
   top: 0;
