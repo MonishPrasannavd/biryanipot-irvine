@@ -13749,7 +13749,7 @@ screen and (max-height: 300px) {
     color: #e6c9a2;
     /* margin-bottom: 0; */
     line-height: 1;
-    margin-bottom: -1px;
+    margin-bottom: 0px;
     margin-right: 5px;
   }
   
