@@ -13731,3 +13731,32 @@ screen and (max-height: 300px) {
 .nav-blog {
   font-size:20px;
 }
+@media (max-width: 576px){
+  .s-blog .blog-box .top-content .meta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #0e1927;
+    text-align: center;
+    padding: 2px 8px 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .s-blog .blog-box .top-content .meta h4 {
+    font-size: 10px;
+    color: #e6c9a2;
+    /* margin-bottom: 0; */
+    line-height: 1;
+    margin-bottom: -1px;
+    margin-right: 5px;
+  }
+  
+  .s-blog .blog-box .top-content .meta p {
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 8px;
+  }
+}
