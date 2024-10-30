@@ -252,9 +252,11 @@ li {
 }
 .blog-line li{
   list-style: disc !important;
+  margin-bottom: 10px;
 }
 .blog-line span{
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .list2 li{
   list-style-type: decimal !important;
@@ -13771,4 +13773,7 @@ screen and (max-height: 300px) {
     text-transform: capitalize;
     font-size: 8px;
   }
+}
+.text-primary{
+  font-weight: 300;
 }
