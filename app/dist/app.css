@@ -247,15 +247,17 @@ li {
   padding-left: 0;
   list-style: none;
 }
-.list1 li{
-  list-style-type: disc;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  /* padding-left: 20px; */
-  /* list-style: none; */
+.blog-line .list1{
+  padding-left: 30px;
 }
-.list1 span{
+.blog-line li{
+  list-style: disc !important;
+}
+.blog-line span{
   font-weight: bold;
+}
+.list2 li{
+  list-style-type: decimal !important;
 }
 
 a {
