@@ -2,16 +2,7 @@
 
 # Block all bots from accessing admin and sensitive directories
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /user-data/
-
-# Allow all bots access to main site content
-User-agent: *
 Allow: /
 
-# Specify crawl-delay to manage server load (optional)
-Crawl-delay: 10
-
-# Sitemap reference (if you have a sitemap.xml)
 Sitemap: https://www.biryanipotirvine.com/sitemap.xml
+

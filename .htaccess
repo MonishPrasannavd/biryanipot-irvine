@@ -1,0 +1,21 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^biryanipotirvine\.com [NC]
+RewriteRule ^(.*)$ https://www.biryanipotirvine.com/$1 [L,R=301]
+
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove .html extension from URLs
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)$ $1.html [L]
+
+# Redirect /index to root (no /index in the URL)
+RewriteRule ^index$ / [L,R=301]
+
+# Redirect .html requests to remove extension
+RewriteCond %{THE_REQUEST} "^[A-Z]{3,9} /(.*)\.html HTTP/"
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
