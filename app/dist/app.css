@@ -12,38 +12,6 @@ a:hover {
   transition: .3s
 }
 
-/* @font-face {
-  font-family: "Audrey Normal";
-  src: url(https://www.biryanipotirvine.com/assets/font/Audrey-Medium.otf);
-  font-weight: 500;
-  font-style: normal;
-  font-display: block
-}
-
-@font-face {
-  font-family: "Audrey Normal";
-  src: url(https://www.biryanipotirvine.com/assets/font/Audrey-Normal.otf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: block
-} */
-
-@font-face {
-  font-family: "Cerebri Sans Regular";
-  src: url(https://www.biryanipotirvine.com/assets/font/CerebriSans-Book.ttf);
-  font-weight: 400;
-  font-style: normal;
-  font-display: block
-}
-
-@font-face {
-  font-family: "Cerebri Sans Regular";
-  src: url(https://www.biryanipotirvine.com/assets/font/CerebriSans-Medium.ttf);
-  font-weight: 500;
-  font-style: normal;
-  font-display: block
-}
-
 html {
   margin-right: 0 !important
 }
@@ -5745,7 +5713,7 @@ footer.style-2 .list-social {
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: -1
+  z-index: -1;
 }
 
 .mySwiper .overlay::before {
@@ -5755,7 +5723,7 @@ footer.style-2 .list-social {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .702);
+  background:rgba(0, 0, 0, .702);
   z-index: 1
 }
 
