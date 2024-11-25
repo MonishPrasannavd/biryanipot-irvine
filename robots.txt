@@ -4,5 +4,9 @@
 User-agent: *
 Allow: /
 
+# Allow Facebook's scraper
+User-agent: facebookexternalhit
+Disallow:
+
 Sitemap: https://www.biryanipotirvine.com/sitemap.xml
 
