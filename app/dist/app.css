@@ -8810,3 +8810,9 @@ button::-moz-focus-inner {
 .text-primary {
   font-weight: 300
 }
+.blog-sidebar-main h2.cheading {
+  font-size: 28px !important;
+}
+.cheading1 :hover{
+  color: blue;
+}
