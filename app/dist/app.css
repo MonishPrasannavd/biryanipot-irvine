@@ -241,6 +241,9 @@ ul {
 .list2 li {
   list-style-type: decimal !important
 }
+.list1{
+  list-style-type: disc !important;
+}
 
 a {
   text-decoration: none;
