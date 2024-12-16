@@ -8819,3 +8819,6 @@ button::-moz-focus-inner {
 .cheading1 :hover{
   color: blue;
 }
+.blog-single .blog-box-2 .text, .blog-single .blog-box-2 .ltext{
+  font-size: 17px !important;
+}
