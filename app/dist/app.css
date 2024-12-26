@@ -8367,6 +8367,9 @@ button::-moz-focus-inner {
   h3 {
     font-size: 25px
   }
+  h4{
+    font-size: 22px;
+  }
 
   .block-text .subtitle {
     font-size: 13px
@@ -8815,6 +8818,11 @@ button::-moz-focus-inner {
 }
 .blog-sidebar-main h2.cheading {
   font-size: 28px !important;
+}
+.blog-sidebar-main h4{
+  font-size: 22px;
+  font-family: "Audrey Normal";
+  line-height: 1.1;
 }
 .cheading1 :hover{
   color: blue;
